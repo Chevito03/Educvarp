@@ -1,0 +1,165 @@
+<html>
+	<head>
+		<link rel="icon" type="image/ico" href="img/logo.ico" />
+		<meta charset="utf-8">
+		<title>Olvide mi contraseña</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+
+		<div class="login-box">
+		<img class="avatar" src="img/logo.png" alt="logo de pagina">
+		<h1>Olvido su contraseña</h1><br>
+	<form action="index3.html" method="post">
+		<!--CORREO-->
+		<label for="Correo">Indique su correo</label>
+		<!--<input type="email" placeholder="Indique su correo">-->
+		<input type="email" id="correo" name="correo" placeholder="Correo" class="input-48" required>
+
+		<!--PASSWORD-->
+		<label for="Contraseña">Indique nueva contraseña</label>
+		
+		<input type="password" placeholder="Indique nueva contraseña">
+
+		<input type="submit" name="buttom"id="buttom" value="Entrar" rel="index.html">
+		<br>
+		<a href="index.html">Iniciar Seccion</a><br><br>
+		
+		<a href="#">No tengo cuenta</a>
+	</form>
+</div>
+</body>
+
+<style>
+	
+body{
+	margin:0;
+	padding: 0;
+	background: url(fondo2.jpeg) no-repeat center top;
+	background-size: cover;
+	font-family: sans-serif;
+	height:100vh;
+}
+
+.login-box {
+  width: 320px;
+  height: 420px;
+  background: #fff;
+  color: #000;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 20px;
+}
+
+.login-box .avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50%;
+	left: calc(50% - 50px);
+}
+
+.login-box h1{
+	margin: 0;
+	padding:0;
+	text-align: center;
+	font-size: 22px;
+}
+
+.login-box label{
+	margin: 0;
+	padding:0;
+	font-weight: bold;
+	display: block;
+	transition: background 5s, color 5s;
+}
+.login.box label:hover{
+	background:#ccc;
+
+}
+
+.login-box input{
+	width:100%;
+	margin-bottom:20px;
+}
+
+.login-box input[type="email"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color:#000;
+	font-size:16px;
+}
+
+.login-box input[type="email"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color:#000;
+	font-size:16px;
+}
+
+.login-box input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color:#000;
+	font-size:16px;
+}
+
+.login-box input{
+	border: none;
+	outline: none;
+	height: 40px;
+	background:#0D528A;
+	color: #fff;
+	font-size:18px;
+	border-radius: 10px;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.login-box buttom{
+	color:darkgrey;
+}
+
+
+.login-box a:hover[type="submit"] {
+	text-decoration: none;
+	font-size:12px;
+	line-height:20px;
+	color: #000;
+}
+
+.login-box a:hover {
+	color:darkgrey;
+}
+
+.login-box .entrada {
+	border: none;
+	outline: none;
+	height: 40px;
+	background:#0D528A;
+	color: #fff;
+	font-size:18px;
+	border-radius: 20px;
+	padding: 10px;
+	text-decoration: none;
+
+
+</style>
+
+
+</html>

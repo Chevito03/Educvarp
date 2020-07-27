@@ -1,0 +1,202 @@
+<html>
+	<head>
+		<link rel="icon" type="image/ico" href="img/logo.ico" />
+		<meta charset="utf-8">
+		<title>Login Micro</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+
+		<div class="login-box">
+			<div>
+		<img  class="avatar"align="center" src="img/logo.png" alt="logo de pagina">
+			</div>
+		<br>
+		<h3>Iniciar Seccion</h3>
+	<form action="inicio.html" method="post">
+		<div>
+		<!--CORREO-->
+		<label for="Correo">Correo</label>
+		<input type="email" placeholder="Colocar Correo"required class="input-100" title="Este Campo es obligatorio">
+
+		<!--PASSWORD-->
+		<label for="Contraseña">Contraseña</label>
+		
+		<input type="password" placeholder="Colocar Contraseña" required class="input-100" title="Este campo es obligatorio" >
+		
+		<input type="submit" name="buttom"id="buttom" value="Entrar" rel="inicio.html"><!--onclick="location.href = 'inicio.html'" required>-->
+		
+		<!--<a href="inicio.html" id="entrada" required="ObligatorioWþ|">Entrar</a><br>-->
+		</div>
+		<br>
+		<a href="olvidocontr.html">Olvide mi contraseña</a><br><br>
+		<br>
+		<a href="register.html">No tengo cuenta</a>
+		<br><br>
+		<!--<a href="C:\Users\usuario\Desktop\prueba-login/descarga.exe" download="descarga.exe">Descargar Setup</a>-->
+	</form>
+	<h1>Su contraseña ha sido cambiada </h1>
+	<h2>Exitosamente</h2>
+</div>
+</body>
+
+<style>
+	
+body{
+	margin:0;
+	padding: 0;
+	background: url(fondo2.jpeg) no-repeat center top;
+	background-size: cover;
+	font-family: sans-serif;
+	height:100vh;
+}
+
+.login-box {
+  width: 450px;
+  height: 550px;
+  background: #fff;
+  color: #000;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  border-radius: 20px;
+}
+
+.login-box .avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50%;
+	left: calc(50% - 50px);
+}
+
+.login-box h1{
+	margin: 0;
+	padding:0;
+	text-align: center;
+	font-size: 22px;
+}
+.login-box h2{
+	margin: 0;
+	padding:0;
+	text-align: center;
+	font-size: 40px - 20px;
+}
+.login-box h3{
+	margin: 0;
+	padding:0;
+	text-align: center;
+	font-size: 22px;
+}
+
+.login-box label{
+	margin: 0;
+	padding:0;
+	font-weight: bold;
+	display: block;
+	transition: background 5s, color 5s;
+
+}
+
+.login-box label:valid{
+	border: 2px dashed red;
+}
+.login-box label:valid{
+	border: 2px solid black;
+}
+.login.box label:hover{
+	background:#ccc;
+
+}
+
+.login-box input{
+	width:100%;
+	margin-bottom:20px;
+}
+
+.login-box input[type="email"]{
+		border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color:#000;
+	font-size:16px;
+}
+
+
+.login-box input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color:#000;
+	font-size:16px;
+}
+.login-box input{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: #0D528A;
+	outline: none;
+	height: 40px;
+	color:#000;
+	font-size:16px;
+	border-radius: 10px;
+	color:#fff;
+}
+.login-box input:hover{
+	background= #fff
+	color:#000;
+	transition: 20px;
+}
+
+	.login-box a {
+	border: none;
+	outline: none;
+	height: 40px;
+	background:#0D528A;
+	color: #fff;
+	font-size:18px;
+	border-radius: 10px;
+	padding: 5px;
+	text-decoration: none;
+
+
+.login-box buttom{
+	color:darkgrey;
+}
+
+
+.login-box a:hover[type="submit"] {
+	text-decoration: none;
+	font-size:12px;
+	line-height:20px;
+	color: #000;
+}
+
+.login-box a:hover {
+	color:darkgrey;
+}
+
+.login-box .entrada {
+	border: none;
+	outline: none;
+	height: 40px;
+	background:#0D528A;
+	color: #fff;
+	font-size:18px;
+	border-radius: 20px;
+	padding: 10px;
+	text-decoration: none;
+
+
+</style>
+
+
+</html>
